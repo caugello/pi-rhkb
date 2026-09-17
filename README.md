@@ -1,6 +1,6 @@
 # pi-rhkb
 
-A [pi](https://pi.dev) coding-agent extension that searches the **Red Hat Knowledge Portal** and hands pi synthesize-able, citable results. Retrieval is the portal's Solr index — **no LLM, no API key, one stateless GET** per call.
+A [pi](https://pi.dev) coding-agent extension that searches the **Red Hat Offline Knowledge Portal** and hands pi synthesize-able, citable results. Retrieval is the portal's Solr index — **no LLM, no API key, one stateless GET** per call.
 
 - **`ask_rhkb` tool** — pi's LLM calls it for "what does Red Hat say / find the KB entry / how-to" questions. Synthesizes the answer and cites portal URLs.
 - **`/rhkb` command** — deterministic direct lookup:
